@@ -20,6 +20,14 @@ this.info.rememberedActions = rememberActionsString;
 rememberVisibilityString = JSON.stringify(visibility);
 this.info.rememberedVisibility = rememberVisibilityString;
 
+// stores equipment array when closing
+rememberEquipmentString = JSON.stringify(equipment);
+this.info.rememberedEquipment = rememberEquipmentString;
+
+// stores investigator array when closing
+rememberInvestigatorsString = JSON.stringify(investigator);
+this.info.rememberedInvestigators = rememberInvestigatorsString;
+
 
 
 // stores locationMenus array when closing
@@ -41,3 +49,11 @@ this.info.rememberedActMenus = rememberActMenusString;
 // stores visibilityMenus array when closing
 rememberVisMenusString = JSON.stringify(visibilityMenus);
 this.info.rememberedVisMenus = rememberVisMenusString;
+
+// stores equipmentMenus array when closing
+rememberEquipMenusString = JSON.stringify(equipmentMenus);
+this.info.rememberedEquipMenus = rememberEquipMenusString;
+
+// stores investigatorMenus array when closing
+rememberInvestMenusString = JSON.stringify(investigatorMenus);
+this.info.rememberedInvestMenus = rememberInvestMenusString;
