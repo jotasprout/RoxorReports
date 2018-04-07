@@ -28,7 +28,7 @@ this.info.rememberedEquipment = rememberEquipmentString;
 rememberInvestigatorsString = JSON.stringify(investigator);
 this.info.rememberedInvestigators = rememberInvestigatorsString;
 
-
+// ARRAYS OF MENUS
 
 // stores locationMenus array when closing
 rememberLocMenusString = JSON.stringify(locationMenus);

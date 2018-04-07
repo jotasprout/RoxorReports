@@ -28,9 +28,6 @@ function addEquipment(equipNum) {
 	}
 }
 
-
-
-
 function removeEquipment(equipNum) {
 
 	// identify unloved equipment
