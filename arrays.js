@@ -23,8 +23,8 @@ var actionMenus = JSON.parse(this.info.rememberedActMenus);
 var conditionMenus = JSON.parse(this.info.rememberedConMenus);
 var visibilityMenus = JSON.parse(this.info.rememberedVisMenus);
 var locationMenus = JSON.parse(this.info.rememberedLocMenus);
-var equipmentMenus = JSON.parse(this.info.rememberedEquipment);
-var investigatorMenus = JSON.parse(this.info.rememberedInvestigators);
+var equipmentMenus = JSON.parse(this.info.rememberedEquipMenus);
+var investigatorMenus = JSON.parse(this.info.rememberedInvestMenus);
 
 // Initial storing of menus in metadata
 
