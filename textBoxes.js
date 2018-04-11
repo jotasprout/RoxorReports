@@ -1,3 +1,5 @@
+// textBoxes
+
 var currentRectangle;
 
 function nameBox(){
